@@ -1,6 +1,10 @@
 <template>
 	<div id="viewport">
 		<slot />
+
+		<ClientOnly>
+			<TheExperience />
+		</ClientOnly>
 	</div>
 </template>
 
